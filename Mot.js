@@ -6,7 +6,6 @@ export default function Mot()
 
 	const[msg,setMsg]=useState();
 	const[author,setAuthor]=useState("");
-	const button = document.createElement('button');
 	
 	const gm=(event)=>{
 		event.preventDefault();
